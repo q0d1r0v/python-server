@@ -9,5 +9,5 @@ def router(self):
         IndexModule(self)
     elif self.path == '/users/':
         GetUsers(self)
-    else: 
+    else:
         NotFoundRoute(self)
